@@ -125,7 +125,7 @@ The script reads settings from `config.json`. Here is a full example with commen
 {
   "user_id": "jdoe",
   "user_directory": "COMPANY",
-  "proxy_server": "https://qlik-server.company.com",
+  "proxy_server": "https://qlik-server.company.com:4243",
   "client_cert": "/path/to/client.pem",
   "client_key": "/path/to/client_key.pem",
   "url": "qlik-server.company.com",
