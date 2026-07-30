@@ -141,7 +141,7 @@ The script reads settings from `config.json`. Here is a full example with commen
 |-----|---------------|---------|
 | `user_id` | Your Qlik username | `"jdoe"` |
 | `user_directory` | The directory/ realm your user belongs to | `"COMPANY"` |
-| `proxy_server` | Full URL of the Qlik Proxy (QPS) | `"https://qlik.company.com"` |
+| `proxy_server` | Full URL of the Qlik Proxy (QPS) | `"https://qlik.company.com:4243"` |
 | `client_cert` | Path to your client certificate file | `"/certs/client.pem"` |
 | `client_key` | Path to your client private key file | `"/certs/client_key.pem"` |
 | `url` | Qlik server hostname (no `https://`) | `"qlik.company.com"` |
